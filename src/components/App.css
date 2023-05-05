@@ -1,0 +1,328 @@
+/* Todo default styles..... */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* ! Advertise Css code..................... */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.shape-tr {
+  margin: 50px 0px 50px;
+  width: 70%;
+  height: 400px;
+  border-radius: 0 100px 100px 0;
+  background: url(../images/star.jpg);
+  position: relative;
+}
+
+.para {
+  width: 350px;
+  color: rgb(199, 192, 192);
+  text-align: start;
+  margin-left: 120px;
+  margin-top: 12px;
+}
+
+.video-container {
+  display: flex;
+  position: relative;
+  gap: 1rem;
+  left: 135px;
+  top: 16px;
+}
+
+iframe {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: "900px";
+  height: "450px";
+}
+
+.video-container iframe {
+  width: 400px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.pagination {
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  top: 95px;
+  right: 50px;
+}
+
+.pagination a {
+  color: rgb(243, 236, 236);
+  border-radius: 5px;
+  padding: 3px 7px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1.5px solid #ddd;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #c29191;
+}
+
+.team {
+  margin-top: 100px;
+}
+
+.team h2 {
+  font-size: 40px;
+  color: #121212f2;
+}
+
+.team span {
+  font-size: 20px;
+  color: rgb(45, 43, 43);
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 50px;
+}
+
+.profile {
+  width: 250px;
+  height: 400px;
+}
+
+.profile img {
+  width: 120px;
+  border-radius: 200px;
+  object-fit: contain;
+}
+
+.profile h3 {
+  line-height: 2;
+}
+.profile p {
+  line-height: 2;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  font-size: 19px;
+  background-color: #121212f2;
+  line-height: 2rem;
+  align-items: center;
+}
+
+/* ! Innovation css code........... */
+.innova {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 1.3;
+  margin: auto;
+  width: 900px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  height: 390px;
+  background: linear-gradient(to bottom right, #80c5d0, #ffffff);
+}
+
+.innova h1 {
+  text-decoration: underline 2px;
+}
+
+.innova span {
+  color: rgb(87, 77, 77);
+}
+.innova button {
+  position: relative;
+  width: 130px;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  background: rgba(65, 62, 62, 0.607);
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.manset {
+  position: absolute;
+  top: -25px;
+  left: -30px;
+}
+
+.manset img {
+  width: 400px;
+  height: 350px;
+  border-radius: 30px;
+}
+
+.pagination2 {
+  position: absolute;
+  right: 160px;
+  top: 310px;
+  display: inline-flex;
+  gap: 1rem;
+}
+
+.pagination2 a {
+  color: rgb(42, 38, 38);
+  border: 2px solid rgb(86, 82, 82);
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+.client {
+  display: flex;
+  justify-content: space-evenly;
+}
+.client span {
+  font-size: 16px;
+  color: #272525;
+}
+
+.card-img {
+  float: left;
+}
+
+
+
+
+/* ! Carosuel code css */
+.swiper {
+  width: 100%;
+  height: auto;
+  margin: 30px 40px 0;
+}
+
+.pratap {
+  display: inline-block;
+  width: 450px;
+  height: 350px;
+  box-shadow: 0px 0px 20px 0px rgb(132 144 255 /20%);
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-bottom: 3.5rem;
+}
+
+.swiper-client-msg {
+  padding: 3rem 3rem;
+  background: #fff;
+
+  text-align: start;
+  position: relative;
+}
+
+.swiper-client-msg p::before {
+  content: "\f10d";
+  position: absolute;
+  top: 0.3rem;
+  left: 1rem;
+  font-size: 2.5rem;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 700;
+  color: #ced3ff;
+}
+
+.swiper-client-msg p::after {
+  content: "\f10e";
+  position: absolute;
+  bottom: -8rem;
+  right: 1rem;
+  font-size: 2.5rem;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 700;
+  color: #ced3ff;
+}
+
+.swiper-client-data {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 16px 37px;
+  gap: 16px;
+}
+
+.swiper-slide img {
+  position: relative;
+  max-width: 7rem;
+  height: 6rem;
+  border-radius: 100%;
+  border: 0.5rem solid #f3f4ff;
+}
+
+.box {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.star-icons {
+  display: flex;
+  gap: 0.2rem;
+  color: rgb(237, 234, 33);
+}
+
+
+
+
+/* ! Media Query */
